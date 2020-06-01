@@ -32,7 +32,26 @@ public class _01_RobotRace {
 			roboNum = i+1;
 			}
 		}
-		JOptionPane.showMessageDialog(null, "Robot "+roboNum+"wins!");
+		JOptionPane.showMessageDialog(null, "Robot "+roboNum+" wins!");
+		for (int i = 0; i < 5; i++) {
+			robots[i].moveTo(0, 400);
+		}
+		//work on this
+//		while (robots[0].getX()) {
+//			for (int i = 0; i < robots.length; i++) {
+//				
+//				for(int x = 0;x<rando.nextInt(50);x++) {
+//					robots[i].move(1);
+//					robots[i].turn(1);
+//				}
+//				System.out.println(robots[i].getY());
+//			}
+//		}
+//		for (int i = 0; i < robots.length; i++) {
+//			if(robots[i].getY()<=0) {
+//			roboNum = i+1;
+//			}
+//		}
 	}
 	// 2. create an array of 5 robots.
 
